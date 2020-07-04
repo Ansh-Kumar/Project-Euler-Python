@@ -1,0 +1,9 @@
+### Problem 1
+list = []
+for x in range(1000):
+  if(x % 3 == 0):
+    list.append(x)
+  elif(x%5 == 0):
+    list.append(x)
+a = sum(list)
+print(a)
