@@ -8,11 +8,6 @@ c = conn.cursor()
 date = datetime.datetime.now()
 
 
-
-
-
-
-
 c.execute('CREATE TABLE IF NOT EXISTS secondDataBase (datestamp TEXT, value REAL)')
 def addData():
     num = random.randrange(0, 100)
